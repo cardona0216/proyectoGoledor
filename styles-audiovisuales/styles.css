@@ -1,0 +1,125 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: linear-gradient(to right, rgb(221, 255, 189), rgb(233, 255, 235));
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #25c56d;
+}
+
+
+li {
+    float: left;
+    color: rgb(0, 0, 0);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #047baa;
+}
+
+h1 {
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    color: #92a4ff;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 33vw;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+/* .video{
+ width: auto;
+  float: left;
+  margin: 0 0 20px 20px;
+  max-width: 25%;
+} */
+.video-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between; /* Espacio uniforme entre videos */
+  }
+  
+  .video {
+    flex: 0 0 calc(33.33% - 20px); /* Cada video ocupa un tercio del ancho menos el espacio */
+    margin-bottom: 20px; /* Espacio entre los videos */
+    box-sizing: border-box;
+    position: relative; /* Importante para que los videos respeten su relación de aspecto */
+  
+  }
+  
+  .video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+
+  
+  
+  
+  
+  
+  
+  
