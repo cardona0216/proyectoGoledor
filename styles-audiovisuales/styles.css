@@ -1,6 +1,6 @@
 body {
     font-family: "Lucida Console", "Courier New", monospace;
-    background: linear-gradient(to right, rgb(221, 255, 189), rgb(233, 255, 235));
+    background: linear-gradient(to right, rgb(236, 189, 255), rgb(255, 233, 250));
     padding: 0;
     margin: 0;
 }
@@ -14,36 +14,37 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #25c56d;
+    background-color: #9f19a3;
 }
 
 
 li {
     float: left;
-    color: rgb(0, 0, 0);
+    color: rgb(97, 15, 97);
 }
 
 li a {
     display: block;
-    color: white;
+    color: rgb(97, 15, 97);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #e952d5;
 }
 
 .active {
-    background-color: #047baa;
+    background-color: #c525bb;
 }
 
 h1 {
     background-color: black;
     padding: 10px;
     margin: 0;
-    color: #92a4ff;
+    color: #fc81eb;
 }
 
 div.gallery {
@@ -110,11 +111,11 @@ div.desc {
 
   .footer {
     background-color: #333;
-    color: #FFF;
+    color: #fc81eb;
     padding: 10px;
     text-align: center;
     clear: both;
-  }
+}
 
   
   
